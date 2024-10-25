@@ -24,7 +24,6 @@ import { ReviewsModule } from '@/modules/reviews/reviews.module';
     OrdersModule,
     RestaurantsModule,
     ReviewsModule,
-
     ConfigModule.forRoot({isGlobal: true}),
     MongooseModule.forRootAsync({
       imports: [ConfigModule],
