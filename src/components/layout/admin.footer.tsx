@@ -1,16 +1,14 @@
-'use client'
-import { Layout } from 'antd';
+"use client";
+import { Layout } from "antd";
 
-const AdminFooterbar = () => {
-    const { Footer } = Layout;
+const AdminFooter = () => {
+  const { Footer } = Layout;
 
-    return (
-        <>
-            <Footer style={{ textAlign: 'center' }}>
-                huynh ©{new Date().getFullYear()} Created by @huynh
-            </Footer>
-        </>
-    )
-}
+  return (
+    <>
+      <Footer style={{ textAlign: "center" }}>hello world</Footer>
+    </>
+  );
+};
 
-export default AdminFooterbar;
+export default AdminFooter;

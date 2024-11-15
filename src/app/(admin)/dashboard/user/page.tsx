@@ -1,7 +1,9 @@
+import UserTable from "@/components/admin/user.table";
+
 const ManageUserPage = () => {
     return (
         <div>
-            Manage User page
+            <UserTable />
         </div>
     )
 }
